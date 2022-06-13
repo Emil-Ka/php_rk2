@@ -20,7 +20,7 @@ class CommentController {
     $comment->setText($_POST['text']);
     $entities = $comment->save();
 
-    header('Location: /211/321/OOP/www/article/'.$idArticle.'#'.$comment->getId());
+    header('Location: /OOP/www/article/'.$idArticle.'#'.$comment->getId());
   }
 }
 

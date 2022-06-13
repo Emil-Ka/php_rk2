@@ -3,7 +3,7 @@
     <p><?= $article->getText()?></p>
     <hr>
     <h2 class="subtitle">Добавить комментарий</h2>
-    <form action="/211/321/OOP/www/article/<?=$article->getId();?>/comments" method="POST">
+    <form action="/OOP/www/article/<?=$article->getId();?>/comments" method="POST">
       <textarea name="text" cols="30" rows="10">
 
       </textarea>
